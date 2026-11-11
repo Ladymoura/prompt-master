@@ -14,15 +14,15 @@ Hij gebruikt twee modelcalls per klik (Sonnet) en verzint geen feiten: ontbreekt
 In een Claude Code-terminal, bij de prompt:
 
 ```
-/plugin install prompt-master --marketplace OWNER/prompt-master
+/plugin install prompt-master --marketplace Ladymoura/prompt-master
 ```
 
 Vanuit een shell:
 
 ```bash
-claude plugin install prompt-master --marketplace OWNER/prompt-master
+claude plugin install prompt-master --marketplace Ladymoura/prompt-master
 ```
 
-In de desktop-app, waar `/plugin` niet werkt: klik op + naast het invoerveld, dan Plugins, Add marketplace met `OWNER/prompt-master`, dan Add plugin.
+In de desktop-app, waar `/plugin` niet werkt: klik op + naast het invoerveld, dan Plugins, Add marketplace met `Ladymoura/prompt-master`, dan Add plugin.
 
 Dit is een privé-repo: installeren lukt alleen voor wie de repo op GitHub mag lezen en op zijn computer al een git-login voor github.com heeft (een SSH-sleutel, of `gh auth login` en daarna `gh auth setup-git`).
