@@ -25,4 +25,17 @@ claude plugin install prompt-master --marketplace Ladymoura/prompt-master
 
 In de desktop-app, waar `/plugin` niet werkt: klik op + naast het invoerveld, dan Plugins, Add marketplace met `Ladymoura/prompt-master`, dan Add plugin.
 
-Dit is een privé-repo: installeren lukt alleen voor wie de repo op GitHub mag lezen en op zijn computer al een git-login voor github.com heeft (een SSH-sleutel, of `gh auth login` en daarna `gh auth setup-git`).
+## In de gewone Claude-chat
+
+De map `chat-skill/prompt-master/` bevat dezelfde werkwijze als skill voor claude.ai. Een skill voegt geen knop toe: je zegt "Prompt Master:" met je ruwe prompt, beantwoordt max. 3 vragen en krijgt de herschreven prompt in een codeblok om te kopiëren.
+
+Installeren: zip de map `chat-skill/prompt-master` (de map zelf, met `SKILL.md` erin) en upload die zip in claude.ai bij Instellingen, onder Skills ("Upload skill"). Code execution moet aanstaan.
+
+## Automatisch in Claude Code-cloudsessies
+
+Zet in de setup-script van je cloudomgeving:
+
+```bash
+claude plugin marketplace add Ladymoura/prompt-master || true
+claude plugin install prompt-master@prompt-master --scope user || true
+```
