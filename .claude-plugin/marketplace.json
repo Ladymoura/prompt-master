@@ -1,0 +1,13 @@
+{
+  "name": "prompt-master",
+  "owner": {
+    "name": "Prompt Master"
+  },
+  "plugins": [
+    {
+      "name": "prompt-master",
+      "source": "./"
+    }
+  ],
+  "description": "Prompt Master: herschrijft je ruwe prompt naar Rol, Taak, Context, Formaat."
+}

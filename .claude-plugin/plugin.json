@@ -1,0 +1,7 @@
+{
+  "name": "prompt-master",
+  "version": "0.1.0",
+  "description": "Knop bij het invoerveld: stelt max. 3 vragen en herschrijft je ruwe prompt naar Rol, Taak, Context, Formaat.",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
